@@ -40,6 +40,7 @@ public class ResponsePayServlet extends HttpServlet {
 				if("2".equals(r9_BType)){
 					out.write("success");
 				}
+				
 				out.write("支付成功");
 			}
 		}

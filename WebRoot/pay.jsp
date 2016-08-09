@@ -27,9 +27,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<table width="60%">
 			<tr>
 				<td bgcolor="#F7FEFF" colspan="4">
-				<!-- 商品名称：<input  type="text" name="proname"  /> -->
 				订单号：<INPUT TYPE="text" NAME="ordernum" value="201608080000002"> 
 				支付金额：<INPUT TYPE="text" NAME="money" size="6" value="0.01">元</td>
+				
 			</tr>
 			<tr>
 				<td><br />
