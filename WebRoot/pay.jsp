@@ -23,6 +23,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+   <center>
+  
+  <img src="images/logo.jpg.jpg"  />
     <form action="${pageContext.request.contextPath}/servlet/PayServlet" method="post">
 		<table width="60%">
 			<tr>
@@ -72,7 +75,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</table>
 	</form>
     
-    
+    </center>
     
   </body>
 </html>
